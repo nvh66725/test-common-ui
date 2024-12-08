@@ -6,8 +6,8 @@
   "exports": {
     ".": "./src/index.js"
   },
-  "main": "./dist/my-common-ui.umd.js",
-  "module": "./dist/my-common-ui.es.js",
+  "main": "dist/my-common-ui.umd.js",
+  "module": "dist/my-common-ui.es.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
