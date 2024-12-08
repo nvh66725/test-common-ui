@@ -1,10 +1,13 @@
 {
   "name": "my-common-ui",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
-  "main": "dist/my-common-ui.umd.js",
-  "module": "dist/my-common-ui.es.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "main": "./dist/my-common-ui.umd.js",
+  "module": "./dist/my-common-ui.es.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
